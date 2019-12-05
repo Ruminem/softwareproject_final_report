@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navWirteBulletin"
+        android:icon="@drawable/round_create_white_18dp"
+        android:title="경매 등록"/>
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/round_home_white_18dp"
+        android:title="경매 보기"/>
+
+    <item
+        android:id="@+id/navUserInformation"
+        android:icon="@drawable/round_account_circle_white_18dp"
+        android:title="마이 메뉴"/>
+
+</menu>

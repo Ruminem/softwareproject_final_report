@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0277BD</color>
+    <color name="colorAccent">#2478FF</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#909090</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="textView">#0054FF</color>
+
+    <!-- Facebook Account Kit ( added 2019.9.30 22:48 ) -->
+    <color name="colorBackground">#0097E3</color>
+</resources>

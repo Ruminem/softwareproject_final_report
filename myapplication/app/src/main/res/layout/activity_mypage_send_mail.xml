@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray_base"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1:1 문의하기"
+        android:fontFamily="@font/dxmsubtitlesm_kscpc_euc_h"
+        android:gravity="center"
+        android:textSize="45sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_background">
+
+        <EditText
+            android:id="@+id/mail_title"
+            android:fontFamily="@font/dxmsubtitlesm_kscpc_euc_h"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@null"
+            android:textSize="24sp"
+            android:hint="제목을 입력해주세요."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/round_background">
+
+        <EditText
+            android:id="@+id/mail_content"
+            android:fontFamily="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textSize="24sp"
+            android:hint="문의사항을 입력해주세요."/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dxmsubtitlesm_kscpc_euc_h"
+        android:background="@drawable/round_background"
+        android:textSize="24sp"
+        android:text="문의 메일보내기"/>
+
+
+</LinearLayout>

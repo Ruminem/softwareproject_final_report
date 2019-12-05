@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    tools:context=".RegisterActivity">
+
+
+    <!-- RadioGroup에서 선택한 버튼에 따라
+            RegisterCompany | RegisterNormal 액티비티로 이동 -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_background"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="회원가입"
+        android:textColor="#0077bd"
+        android:textSize="35sp"
+        android:fontFamily="@font/typo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_background"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="가입을 원하는 회원을\n선택해 주세요"
+        android:textColor="#08446d"
+        android:textSize="20sp"
+        android:fontFamily="@font/nanumsquare2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <RadioGroup
+        android:id="@+id/selectRadio"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.046">
+        <!-- 기업회원 선택버튼 ( companyMember ) -->
+        <RadioButton
+            android:id="@+id/companyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+
+            android:checked="true"
+
+            android:shape="rectangle"
+            android:fontFamily="@font/nanumsquare2"
+            android:text="기업회원"
+            android:textSize="20sp" />
+
+        <!-- 일반회원 선택버튼 ( normalMember )-->
+        <RadioButton
+            android:id="@+id/normalRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:shape="rectangle"
+
+            android:fontFamily="@font/nanumsquare2"
+
+            android:text="일반회원"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="8dp"
+            android:background="#0077bd"
+            android:fontFamily="@font/nanumsquare2"
+            android:text="확인"
+            android:textColor="#ffffff" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

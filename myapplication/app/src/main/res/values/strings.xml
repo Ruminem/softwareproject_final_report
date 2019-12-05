@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Auction</string>
+    <string name="text13">BID</string>
+    <string name="strLoginButton">Log In</string>
+    <string name="strRegisterButton">Sign Up</string>
+    <string name="loginID">ID</string>
+    <string name="loginPassword">Password</string>
+    <string name="checkBox">Remember login</string>
+
+    <!-- Facebook Account Kit ( added. 2019.10.01 12:43 ) -->
+    <string name="action_settings">Settings</string>
+
+    <string name="app_id">465871913602533</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">b3f19a50f37af1e79c5bc59c02d59d90</string>
+
+    <string name="ak_login_protocol_scheme">ak465871913602533</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- 네이버 맵 API ( 2019.10.23 18:15 ) -->
+    <string name="NAVER_CLIENT_ID">yqyp1ld5u1</string>
+    <string name="CLIENT_TYPE">gov</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
